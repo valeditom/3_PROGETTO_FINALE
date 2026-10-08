@@ -1,0 +1,32 @@
+Progetto 4
+Sviluppare una pipeline completa di Machine Learning per la Regressione, ap
+plicata al dataset multivariato Diabetes.
+Effettuare il confronto e l’ottimizzazione dei seguenti modelli predittivi per sti
+mare un valore target numerico continuo:
+• Regressione Lineare
+• Decision Tree
+• Regressione Ridge
+• Regressione Lasso
+• K-Nearest Neighbor
+• Support Vector Machine
+1 Data Exploration & Preprocessing
+1. Caricamento e Analisideldataset e fornire un’analisi descrittiva iniziale
+(i.e. df.describe())
+2. Visualizzazione tramite strumenti grafici (istogrammi, boxplot, scat
+ter matrix) per comprendere la distribuzione delle feature e identificare
+potenziali correlazioni o outlier
+3. Preparazione dei dati in set di Training e Test utilizzando la funzionetrain test split
+2 Confronto e Selezione Iniziale dei Modelli
+1. Implementare e confrontare almeno quattro algoritmi di Regressione standard
+2. Utilizzare la K-Fold Cross-Validation per valutare le prestazioni medie di
+ciascun modello sul set di training
+3. Basare il confronto sulla metrica NMSE (Negative Mean Squared Error)
+3 Hyperparameters Tuning
+1. Grid Search per ottimizzare un iperparametro cruciale
+2. Valutazione Finale per calcolare e riportare le metriche finali (MSE, R2) sul set di Test utilizzando il modello ottimizzato
+4 Analisi delle Performance
+1. Learning Curves per il modello ottimizzato, valutando bias e varianza,
+e commentando la tendenza del modello a overfitting o underfitting
+5 Visualizzazione con Data Reduction
+1. PCA per ridurre lo spazio delle feature a due dimensioni (PC1 & PC2)
+2. Plot della Regressione per visualizzare il piano di regressione del modello ottimizzato nello spazio bidimensionale
